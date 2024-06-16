@@ -1,0 +1,16 @@
+{
+  "name": "yin-ts",
+  "version": "1.0.0",
+  "description": "TS implementation of YIN algorithm for fundamental frequency estimation",
+  "main": "yin.ts",
+  "repository": "git@github.com:daniele-roncaglioni/yin-ts.git",
+  "author": "roncaglionidaniele <roncaglionidaniele@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
