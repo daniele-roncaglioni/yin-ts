@@ -53,5 +53,4 @@ function yin(signal: number[], sampleRate: number, threshold: number = 0.2) {
     return sampleRate / betterTau
 }
 
-// use commonjs module system as this is also supported by the ES modules
 export default yin;
